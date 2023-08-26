@@ -1,0 +1,104 @@
+absl-py==1.4.0
+asttokens==2.1.0
+backcall==0.2.0
+beautifulsoup4==4.12.2
+brotlipy==0.7.0
+bs4==0.0.1
+cachetools==5.3.0
+certifi @ file:///croot/certifi_1665076670883/work/certifi
+cffi @ file:///tmp/abs_98z5h56wf8/croots/recipe/cffi_1659598650955/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+contourpy==1.0.5
+cryptography @ file:///tmp/build/80754af9/cryptography_1652101588599/work
+cycler==0.11.0
+debugpy==1.6.3
+decorator==5.1.1
+docopt==0.6.2
+efficientnet-pytorch==0.7.1
+entrypoints==0.4
+executing==1.2.0
+faiss-gpu==1.7.2
+filelock==3.8.0
+fonttools==4.37.4
+google-auth==2.16.1
+google-auth-oauthlib==0.4.6
+grpcio==1.51.3
+huggingface-hub==0.10.1
+idna @ file:///croot/idna_1666125576474/work
+imageio==2.22.2
+imgaug==0.4.0
+ipykernel==6.17.1
+ipython==8.6.0
+jedi==0.18.2
+joblib==1.2.0
+jupyter_client==7.4.7
+jupyter_core==5.0.0
+kiwisolver==1.4.4
+lxml==4.9.2
+Markdown==3.4.1
+MarkupSafe==2.1.2
+matplotlib==3.7.0
+matplotlib-inline==0.1.6
+mkl-fft==1.3.1
+mkl-random @ file:///home/builder/ci_310/mkl_random_1641843545607/work
+mkl-service==2.4.0
+nest-asyncio==1.5.6
+networkx==2.8.7
+numpy @ file:///croot/numpy_and_numpy_base_1665773175172/work
+oauthlib==3.2.2
+opencv-python==4.6.0.66
+packaging==21.3
+pandas==1.5.1
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.2.0
+pipreqs==0.4.13
+platformdirs==2.5.4
+prompt-toolkit==3.0.33
+protobuf==4.22.0
+psutil==5.9.4
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.13.0
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+pypinyin==0.49.0
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil==2.8.2
+pytz==2022.5
+PyWavelets==1.4.1
+PyYAML==6.0
+pyzmq==24.0.1
+requests @ file:///opt/conda/conda-bld/requests_1657734628632/work
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-image==0.19.3
+scikit-learn==1.1.2
+scipy==1.9.3
+seaborn==0.12.2
+shapely==2.0.1
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.4.1
+stack-data==0.6.1
+tensorboard==2.12.0
+tensorboard-data-server==0.7.0
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+tifffile==2022.10.10
+timm==0.6.11
+torch==1.12.1
+torchaudio==0.12.1
+torchvision==0.13.1
+tornado==6.2
+tqdm==4.64.1
+traitlets==5.5.0
+typing_extensions @ file:///tmp/abs_ben9emwtky/croots/recipe/typing_extensions_1659638822008/work
+urllib3 @ file:///croot/urllib3_1666298941550/work
+wcwidth==0.2.5
+Werkzeug==2.2.3
+yarg==0.1.9
