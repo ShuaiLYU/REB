@@ -32,8 +32,8 @@ on [Mvtec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
 1. you are advised to download Mvtec ad dataset with saliency from [BaiduNetdisk (code: 1234)](https://pan.baidu.com/s/17w4pUWYqzMUs2FSz8vVWKw) or [OneDrive](https://connectpolyu-my.sharepoint.com/personal/21062579r_connect_polyu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F21062579r%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2Fpublic%5Fshared%2Fmvtec%5Fanomaly%5Fdetection%5Fsaliency%2Ezip&parent=%2Fpersonal%2F21062579r%5Fconnect%5Fpolyu%5Fhk%2FDocuments%2Fpublic%5Fshared&ga=1).  
     you can also generate saliency by yourself with teh [EDN saliency model](https://github.com/yuhuan-wu/EDN)
     
-2. modify the dataset path and OUTPUT path  in [global_param.py](https://github.com/ShuaiLYU/REB/src/global_param.py) according to your personal config.  
-      the best K for Mvtec is 9. set K value in argparse or [global_param.py](https://github.com/ShuaiLYU/REB/src/global_param.py)
+2. modify the dataset path and OUTPUT path  in [global_param.py](src/global_param.py) according to your personal config.  
+      the best K for Mvtec is 9. set K value in argparse or [global_param.py](src/global_param.py)
     
 3. Run commands below to train
 ```bash
@@ -61,8 +61,8 @@ on [Mvtec AD LOCO](https://www.mvtec.com/company/research/datasets/mvtec-loco)
 
 1.  we don't use saliency for Mvtec LOCO 
     
-2. modify the dataset path and OUTPUT path  in [global_param.py](https://github.com/ShuaiLYU/REB/src/global_param.py) according to your personal config.  
-    the best K for Mvtec LOCO is 45. set K value in argparse or  [global_param.py](https://github.com/ShuaiLYU/REB/src/global_param.py)
+2. modify the dataset path and OUTPUT path  in [global_param.py](src/global_param.py) according to your personal config.  
+    the best K for Mvtec LOCO is 45. set K value in argparse or  [global_param.py](src/global_param.py)
     
 3. Run commands below to train
 ```bash
@@ -102,8 +102,8 @@ $ python main.py  -exp_name wr101_imagenet   -K 45  -run_name run1  -run_mode 1
 
 ##  Bezier_gen
 
-* [visualize Bezier Curve](https://github.com/ShuaiLYU/REB/tutorials/bezier_curve.ipynb)
+* [visualize Bezier Curve](tutorials/bezier_curve.ipynb)
 ![](pictures/Bezier_gen.png)
 ##  DefectMaker
-* [wrap multiple DefectMaker combinations with your data ](https://github.com/ShuaiLYU/REB/tutorials/DefectMakerUnion.ipynb)
+* [wrap multiple DefectMaker combinations with your data ](tutorials/DefectMakerUnion.ipynb)
 ![](pictures/dm.png)
