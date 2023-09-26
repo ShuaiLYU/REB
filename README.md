@@ -17,6 +17,9 @@ official source code for REB：Reducing Biases in Representation for Industrial 
 ```bash
 $ git clone https://github.com/ShuaiLYU/REB
 $ cd REB
+$ conda create -n reb python==3.10.6
+$ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
 $ pip install -r requirements.txt
 ```
 

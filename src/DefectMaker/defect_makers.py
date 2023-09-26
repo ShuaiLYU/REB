@@ -60,7 +60,8 @@ class DefectMaker(object):
         self.poission_fuse=kwargs.get("poission_fuse",False)
 
     def make_defect(self, sample:dict):
-        
+
+        # return self._make_defect(sample) # 举例，执行一个函数
         
         attempt = 0
         max_attempts=4
