@@ -217,7 +217,7 @@ if __name__ =="__main__":
                 if  after_fit==False:
                     eval_tool.fit(train_eval_data)
                     eval_tool.update_hyper_param(**eval_hparam)
-                    after_fit=True
+                    # after_fit=True
 
                 eval_tool.run_eval(**eval_input)
                 if cate_idx== len(PARAM.all_types) -1:
